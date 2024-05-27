@@ -20,7 +20,7 @@ public class Task implements ShowData {
     private Date TanggalMulai;
     private Date tanggalSelesai;
     private String jenisTugas;
-    protected String taskState;
+    public String taskState;
 
     @Override
     public void showInfo() {
@@ -41,7 +41,7 @@ public class Task implements ShowData {
             task.showInfo();
         }
     }
-    private enum taskState{
+    public enum taskState{
         NOT_STARTED,
         IN_PROGRESS,
         COMPLETED,
