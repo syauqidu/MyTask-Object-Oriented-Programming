@@ -10,5 +10,6 @@ package task;
  * @author Asus
  */
 public interface ShowData {
-    
+    void showInfo();
+    void sorting();
 }
