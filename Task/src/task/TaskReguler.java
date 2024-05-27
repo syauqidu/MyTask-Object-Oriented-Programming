@@ -15,8 +15,8 @@ public class TaskReguler extends Task {
     private String prioritas;
     private int limitTask;
 
-    public TaskReguler(String prioritas, int limitTask, String judul, String username, String deskripsi, Date TanggalMulai, Date tanggalSelesai, String jenisTugas, TaskState askState) {
-        super(judul, username, deskripsi, TanggalMulai, tanggalSelesai, jenisTugas, askState);
+    public TaskReguler(String prioritas, int limitTask, String judul, String username, String deskripsi, Date TanggalMulai, Date tanggalSelesai, String jenisTugas, taskState taskState) {
+        super(judul, username, deskripsi, TanggalMulai, tanggalSelesai, jenisTugas, taskState);
         this.prioritas = prioritas;
         this.limitTask = limitTask;
     }
